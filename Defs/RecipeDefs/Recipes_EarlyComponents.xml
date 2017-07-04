@@ -16,6 +16,7 @@
         <filter>
           <ThingDefs>
             <li>Steel</li>
+            <li>Plasteel</li>
           </ThingDefs>
         </filter>
         <count>25</count>
@@ -27,6 +28,7 @@
     <fixedIngredientFilter>
       <ThingDefs>
         <li>Steel</li>
+        <li>Plasteel</li>
       </ThingDefs>
     </fixedIngredientFilter>
     <workSkill>Crafting</workSkill>
@@ -50,6 +52,7 @@
         <filter>
           <ThingDefs>
             <li>Steel</li>
+            <li>Plasteel</li>
           </ThingDefs>
         </filter>
         <count>50</count>
@@ -61,6 +64,7 @@
     <fixedIngredientFilter>
       <ThingDefs>
         <li>Steel</li>
+        <li>Plasteel</li>
       </ThingDefs>
     </fixedIngredientFilter>
     <workSkill>Crafting</workSkill>
@@ -84,6 +88,7 @@
         <filter>
           <ThingDefs>
             <li>Steel</li>
+            <li>Plasteel</li>
           </ThingDefs>
         </filter>
         <count>5</count>
@@ -92,6 +97,7 @@
     <fixedIngredientFilter>
       <ThingDefs>
         <li>Steel</li>
+        <li>Plasteel</li>
       </ThingDefs>
     </fixedIngredientFilter>
     <products>
