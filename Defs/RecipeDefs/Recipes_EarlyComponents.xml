@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!-- a comment -->
 	<RecipeDef>
     <defName>ElectricSmithyComponent</defName>
     <label>Make Component</label>
