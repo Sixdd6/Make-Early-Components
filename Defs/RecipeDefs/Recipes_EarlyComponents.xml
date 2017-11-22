@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef>
     <defName>ElectricSmithyComponent</defName>
@@ -14,10 +14,10 @@
     <ingredients>
       <li>
         <filter>
-          <ThingDefs>
+          <thingDefs>
             <li>Steel</li>
             <li>Plasteel</li>
-          </ThingDefs>
+          </thingDefs>
         </filter>
         <count>25</count>
       </li>
@@ -26,10 +26,10 @@
       <Component>1</Component>
     </products>
     <fixedIngredientFilter>
-      <ThingDefs>
+      <thingDefs>
         <li>Steel</li>
         <li>Plasteel</li>
-      </ThingDefs>
+      </thingDefs>
     </fixedIngredientFilter>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
@@ -50,10 +50,10 @@
     <ingredients>
       <li>
         <filter>
-          <ThingDefs>
+          <thingDefs>
             <li>Steel</li>
             <li>Plasteel</li>
-          </ThingDefs>
+          </thingDefs>
         </filter>
         <count>50</count>
       </li>
@@ -62,10 +62,10 @@
       <Component>1</Component>
     </products>
     <fixedIngredientFilter>
-      <ThingDefs>
+      <thingDefs>
         <li>Steel</li>
         <li>Plasteel</li>
-      </ThingDefs>
+      </thingDefs>
     </fixedIngredientFilter>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
@@ -86,19 +86,19 @@
     <ingredients>
       <li>
         <filter>
-          <ThingDefs>
+          <thingDefs>
             <li>Steel</li>
             <li>Plasteel</li>
-          </ThingDefs>
+          </thingDefs>
         </filter>
         <count>5</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <ThingDefs>
+      <thingDefs>
         <li>Steel</li>
         <li>Plasteel</li>
-      </ThingDefs>
+      </thingDefs>
     </fixedIngredientFilter>
     <products>
       <Component>1</Component>
@@ -109,4 +109,4 @@
     </recipeUsers>
   </RecipeDef>
 
-</RecipeDefs>
+</Defs>
