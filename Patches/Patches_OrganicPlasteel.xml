@@ -7,9 +7,10 @@
 			<li Class="ModCheck.isModLoaded">
 				<modName>Organic Plasteel</modName>
 				<yourMod>Make Early Components</yourMod>
+				<errorOnFail>false</errorOnFail>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>*/RecipeDef</xpath>
+				<xpath>Defs</xpath>
 				<value>
           <RecipeDef>
             <defName>ElectricSmithyOrganicComponent</defName>
@@ -55,9 +56,10 @@
       <li Class="ModCheck.isModLoaded">
         <modName>Organic Plasteel</modName>
         <yourMod>Make Early Components</yourMod>
+				<errorOnFail>false</errorOnFail>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/RecipeDef</xpath>
+        <xpath>Defs</xpath>
         <value>
           <RecipeDef>
             <defName>MakeOrganicComponent</defName>
