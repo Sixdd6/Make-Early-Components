@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Organic Plasteel</modName>
+				<yourMod>Make Early Components</yourMod>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef</xpath>
+				<value>
+          <RecipeDef>
+            <defName>ElectricSmithyOrganicComponent</defName>
+            <label>Make Plastic Component</label>
+            <description>Make a component out of plastic.</description>
+            <jobString>Making component.</jobString>
+            <workSpeedStat>SmithingSpeed</workSpeedStat>
+            <effectWorking>Cremate</effectWorking>
+            <soundWorking>Recipe_Cremate</soundWorking>
+            <workAmount>7500</workAmount>
+            <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+            <ingredients>
+              <li>
+                <filter>
+                  <thingDefs>
+                    <li>Plastic</li>
+                  </thingDefs>
+                </filter>
+                <count>25</count>
+              </li>
+            </ingredients>
+            <products>
+              <Component>1</Component>
+            </products>
+            <fixedIngredientFilter>
+              <thingDefs>
+                <li>Plastic</li>
+              </thingDefs>
+            </fixedIngredientFilter>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+              <li>ElectricSmithy</li>
+            </recipeUsers>
+          </RecipeDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="ModCheck.isModLoaded">
+        <modName>Organic Plasteel</modName>
+        <yourMod>Make Early Components</yourMod>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/RecipeDef</xpath>
+        <value>
+          <RecipeDef>
+            <defName>MakeOrganicComponent</defName>
+            <label>Make Plastic Component</label>
+            <description>Make a component from plastic.</description>
+            <jobString>Making component.</jobString>
+            <workSpeedStat>SmithingSpeed</workSpeedStat>
+            <effectWorking>Cremate</effectWorking>
+            <soundWorking>Recipe_Cremate</soundWorking>
+            <workAmount>3500</workAmount>
+            <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+            <ingredients>
+              <li>
+                <filter>
+                  <thingDefs>
+                    <li>Plastic</li>
+                  </thingDefs>
+                </filter>
+                <count>5</count>
+              </li>
+            </ingredients>
+            <fixedIngredientFilter>
+              <thingDefs>
+                <li>Plastic</li>
+              </thingDefs>
+            </fixedIngredientFilter>
+            <products>
+              <Component>1</Component>
+            </products>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+              <li>ComponentAssemblyBench</li>
+            </recipeUsers>
+          </RecipeDef>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

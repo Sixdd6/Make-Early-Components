@@ -37,7 +37,7 @@
     </recipeUsers>
   </RecipeDef>
 
- <RecipeDef>
+	<RecipeDef>
     <defName>FueledSmithyComponent</defName>
     <label>Make Component</label>
     <description>Make a component.</description>
@@ -73,7 +73,7 @@
     </recipeUsers>
   </RecipeDef>
 
-<RecipeDef>
+	<RecipeDef>
     <defName>MakeComponent</defName>
     <label>Make Component</label>
     <description>Make a component.</description>

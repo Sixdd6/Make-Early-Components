@@ -4,5 +4,12 @@
 	<author>Sixdd</author>
 	<url>https://github.com/Sixdd6/Make-Early-Components</url>
 	<targetVersion>0.18.1722</targetVersion>
-	<description>This mod allows you to create components out of Steel at a Smithy. The process is expensive early on but becomes much cheaper with the Component Assembly Table.</description>
+	<description>This mod allows you to create components out of Steel at a Smithy. The process is expensive early on but becomes much cheaper with the Component Assembly Table.
+
+	Components can be made at these workbenches
+	Fueled Smithy for 50 each
+	Electric Smithy for 25 each
+	Component Assembly Table for 5 each
+
+	If used alongside my [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1087082569]Organic Plasteel[/url] mod you can also make components out of Plastic!</description>
 </ModMetaData>
